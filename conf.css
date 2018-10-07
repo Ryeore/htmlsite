@@ -7,6 +7,16 @@ body {
 	float:right;
 	padding: 0 0 5px 5px;
 	margin-left: 20px;
+	border-width: 0px
+}
+
+
+#leftimg
+{
+	float:left;
+	padding: 0 0 5px 5px;
+	margin-left: 20px;
+	border-width: 0px
 }
 
 #midimg
@@ -14,6 +24,7 @@ body {
 	float:middle;
 	padding: 0 0 5px 5px;
 	margin-left: 20px;
+	
 }
 
 table, th, td {
