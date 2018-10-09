@@ -1,5 +1,6 @@
 body
 {
+	height:100%;
 	width: 100%;
 	background-color: #f4f4f4;
 	color:#555;
@@ -9,11 +10,11 @@ body
 	margin:0;
 }
 
-.container
-{
+.container{
 	width: 80%;
 	margin: auto;
 	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 #main_header
@@ -74,6 +75,10 @@ body
 	margin: 1em;
 }
 
+input[type=text], [type=textarea] {
+	margin-left: 2em;
+}
+
 table, th, td {
     border: 1px solid black;
 }
@@ -112,15 +117,5 @@ footer
     text-align: center;
     text-align-last: center;
     height: 3em;
-}
-
-#footer_text
-{
-	margin: 0;
-    background: yellow;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
 }
