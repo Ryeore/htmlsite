@@ -13,17 +13,39 @@
 				<h1>Share your opinion with us</h1>
 				<h4>We appreciate every feedback we receive. Feel free to write whatever you want. We check every message ;)</h4>
 				<p><a href="mailto:kamil19970@gmail.com"><b>Send email</b></a> (link)</p>
-				<div class="opinion_from">
-					<form action="mailto:kamil19970@gmail.com" method="post" enctype="text/plain">
-						Name:   <input type="text" name="name" placeholder="enter your name"><br><br>
-						E-mail: <input type="text" name="mail" placeholder="enter your mail"><br><br>
-						Comment:
-						<textarea placeholder="enter your message"></textarea><br>
-						<br>
-						<input type="submit" value="Send" type = "button" class = "btn btn-primary">
-						<input type="reset" value="Clear" type = "button" class = "btn btn-primary">
-					</form>
-				</div>
+				<form class = "form-horizontal" role = "form">
+					
+					<div class = "form-group">
+						<label for = "firstname" class = "col-sm-2 control-label"><b>Name</b></label>
+						
+						<div class = "col-sm-10">
+							<input type = "text" class = "form-control" id = "firstname" placeholder = "Enter Your Name">
+						</div>
+					</div>
+					
+					<div class = "form-group">
+						<label for = "lastname" class = "col-sm-2 control-label"><b>Email</b>
+						</label>
+						
+						<div class = "col-sm-10">
+							<input type = "text" class = "form-control" id = "lastname" placeholder = "Enter Last Name">
+						</div>
+					</div>
+					<div class = "form-group">
+						<label for = "lastname" class = "col-sm-2 control-label"><b>Comment</b></label>
+						
+						<div class = "col-sm-10">
+							<input type = "text" class = "form-control" id = "lastname" placeholder = "Enter Comment">
+						</div>
+					</div>
+					
+					<div class = "form-group">
+						<div class = "col-sm-offset-2 col-sm-10">
+							<button type = "submit" class = "btn btn-success"">Sign in</button>
+						</div>
+					</div>
+					
+				</form>
 			</div>
 			<script src="js/jquerry.min.js"></script>
 			<script src="js/popper.min.js"></script>
