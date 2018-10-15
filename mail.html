@@ -2,15 +2,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>News from us</title>
-		<link rel="stylesheet" type="text/css" href="css/conf.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="conf.css">
 	</head>
 	<body>
-		<div class="containter">
+		<div class="container">
 			<div class="container">
-				<div class="button">
-					<a href="index.html">  <button title="Home">Home page</button></a>
-				</div>
+				<a href="index.html">  <button title="Home" type = "button" class = "btn btn-primary">Home page</button></a>
 				<h1>Share your opinion with us</h1>
 				<h4>We appreciate every feedback we receive. Feel free to write whatever you want. We check every message ;)</h4>
 				<p><a href="mailto:kamil19970@gmail.com"><b>Send email</b></a> (link)</p>
@@ -20,9 +19,14 @@
 						E-mail: <input type="text" name="mail" placeholder="enter your mail"><br><br>
 						Comment:
 						<textarea placeholder="enter your message"></textarea><br>
-						<input type="submit" value="Send"> <input type="reset" value="Clear">
+						<br>
+						<input type="submit" value="Send" type = "button" class = "btn btn-primary">
+						<input type="reset" value="Clear" type = "button" class = "btn btn-primary">
 					</form>
 				</div>
 			</div>
+			<script src="js/jquerry.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
 		</body>
 	</html>

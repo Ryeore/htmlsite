@@ -17,7 +17,7 @@ body
 
 .container{
 	width: 80%;
-LL
+	padding: 3em;
 }
 
 #main_header
@@ -63,8 +63,8 @@ LL
 }
 .navigation-bar
 {
-	margin-top: 1.5%;
-	margin-bottom: 1.5%;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 #quake_text
