@@ -112,13 +112,3 @@ a:hover
 	background-color: red;
 }
 
-/*FOOTER*/
-footer 
-{
-	width: 100%;
-    background-color: grey;
-    text-align: center;
-    text-align-last: center;
-    height: 3em;
-    position: absolute;
-}
