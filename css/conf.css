@@ -17,7 +17,6 @@ body
 
 .container{
 	width: 80%;
-LL
 }
 
 #main_header
@@ -82,7 +81,7 @@ input[type=text], [type=textarea] {
 	margin-left: 2em;
 }
 
-table, th, td {
+table th, td {
     border: 1px solid black;
 }
 
@@ -112,3 +111,28 @@ a:hover
 	background-color: red;
 }
 
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/*table styling*/
+table{
+	  border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+table tbody tr:nth-child(odd) {
+	color: red;
+}
+
+table tbody tr:nth-child(even) {
+	color: blue;
+}
